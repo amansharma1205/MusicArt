@@ -1,0 +1,28 @@
+{
+  "name": "vaionex-musicart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.14.1",
+    "allure-commandline": "^2.13.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "@wdio/allure-reporter": "^7.10.1",
+    "@wdio/junit-reporter": "^7.13.2",
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/mocha-framework": "^7.14.1",
+    "@wdio/spec-reporter": "^7.14.1",
+    "chai": "^4.3.4",
+    "chromedriver": "^94.0.0",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
